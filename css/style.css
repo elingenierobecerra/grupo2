@@ -20,6 +20,9 @@
 }
 
 .contenedor > :nth-child(1){
+    display: flex;
+    justify-content: center;
+    align-items: center;
     border: inherit;
 }
 .contenedor >:nth-child(1) >:nth-child(1){
@@ -46,12 +49,12 @@
 }
 .contenedor > :nth-child(2) >:nth-child(2){
     border: inherit;
-    display: grid;
+    display: flex;
+    justify-content: right;
 }
 
 .contenedor > :nth-child(2) >:nth-child(2) > :nth-child(1){
     border: inherit;
-    margin-left: 50px;
     margin-top: 15px;
     width: 90%;
     height: 60%;
