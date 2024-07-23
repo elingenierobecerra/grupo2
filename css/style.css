@@ -3,6 +3,7 @@
     padding: 0px;
 }
 .content{
+    margin: 10px;
     width: 100vw;
     height: 10vh;
     border: 1px solid black;
@@ -22,4 +23,3 @@
     margin: 10px;
     margin-left: 10px;
 }
-
