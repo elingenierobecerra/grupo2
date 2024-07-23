@@ -96,10 +96,6 @@
 }
 
 
-.divp1, .divp2{
-    border: 1px solid black;
-    grid-column: span 2;
-}
 
 .section{
     border: 2px solid black;
@@ -113,4 +109,48 @@
     height: calc(100% - 40px);
     margin-left: 7%;
     margin-top: 7%;
+}
+
+
+.caja1{
+    border: 1px solid black;
+    grid-column: span 2;
+    display: flex;
+    justify-content: right;
+    align-items: center;
+}
+
+.caja1 > :nth-child(1), .caja1 > :nth-child(2){
+    width: 70px;
+    height: 70px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 40px;
+}
+
+.caja1 > :nth-child(3){
+    display: grid;
+    width: 70px;
+    height: 70px;
+    border: 1px solid black;
+    border-radius: 50%;
+}
+.content > :nth-child(2){
+    border: inherit;
+    margin: 10px;
+    margin-left: 10px;
+}
+
+.caja2{
+    grid-column: span 2;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.elem{
+    width: calc(100% - 40px);
+    height: calc(100% - 150px);
+    border: 1px solid black;
 }
