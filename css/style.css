@@ -1,0 +1,28 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+.content{
+    width: 150px;
+    height: 150px;
+    display: grid;
+    grid-template-rows: 4fr 1fr;
+
+}
+.content > :nth-child(1){
+    border: 1px solid black;
+    height: 100%;
+    width: 100%;
+    border-radius: 50%;
+    text-align: center;
+    font-size: 80px;
+}
+.content > :nth-child(2){
+    border: 1px solid black;
+    height: 100%;
+    width: 100%;
+    text-align: center;
+    font-size: 65px;
+    margin-top: 10px;
+    }
