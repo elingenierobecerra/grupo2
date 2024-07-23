@@ -1,0 +1,14 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+.cuadro{
+    background-color: lightblue;
+    width: 230px;
+    height: 480px;
+    margin-left: 85%;
+    margin-top: 30%;
+   
+}
