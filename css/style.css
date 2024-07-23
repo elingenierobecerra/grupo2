@@ -74,4 +74,21 @@
 
 .contenedor > :nth-child(3){
     border: inherit;
+    display: grid;
+}
+
+.container{
+    border: 2px  solid black;
+    display: grid;
+    padding: 10px;
+    grid-row: 3;
+    grid-column: 2;
+}
+.container > :nth-child(1){
+    border: inherit;
+    margin-bottom: 10px;
+
+}
+.container > :nth-child(2){
+    border: inherit;
 }
