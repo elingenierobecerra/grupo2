@@ -1,0 +1,25 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+.content{
+    width: 100vw;
+    height: 10vh;
+    border: 1px solid black;
+    display: grid;
+}
+.content > :nth-child(1){
+    border: inherit;
+    display: flex;
+}
+.content > :nth-child(1) :nth-child(1){
+    display: grid;
+    margin-left: 580px;
+    margin-top: 10px;
+}
+.content > :nth-child(2){
+    border: inherit;
+    margin: 10px;
+    margin-left: 10px;
+}
+
