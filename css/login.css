@@ -8,5 +8,26 @@
     width: 25%;
     height: 100vh;
     border: solid black 1px;
-    
+    display: grid;
+    float: right;
+}
+
+.registrer :nth-child(1){
+    width: 20%;
+    height: 20%;
+    border: 1px solid;
+}
+
+.registrer :nth-child(2){
+    width: 10%;
+    height: 10%;
+    border: 1px solid;
+    border-radius: 10px;
+}
+
+.registrer :nth-child(3){
+    width: 10%;
+    height: 10%;
+    border: 1px solid;
+    border-radius: 10px;
 }
